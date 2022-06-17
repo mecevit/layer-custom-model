@@ -20,6 +20,6 @@ if __name__ == "__main__":
     train()
 
     # Get model
-    layer_model = layer.get_model("private_model:2.1").get_train()
+    layer_model = layer.get_model("private_model:1.1").get_train()
     my_private_model = layer_model.load_model()
     print(my_private_model)
